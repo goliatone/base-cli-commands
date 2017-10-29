@@ -11,4 +11,8 @@ module.exports.TemplateRenderer = require('./lib/template');
 
 module.exports.FsUtils = require('./lib/fs-utils');
 
+module.exports.CliApp = require('./lib/cli');
+
+module.exports.ChildProcess = require('child-process-promise');
+
 // module.exports.BaseInstaller = require('./lib/installer');

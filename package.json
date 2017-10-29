@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/goliatone/base-cli-commands#readme",
   "dependencies": {
+    "bluebird": "^3.5.1",
     "child-process-promise": "^2.2.1",
-    "gextend": "^0.3.0"
+    "gextend": "^0.3.0",
+    "mkdirp": "^0.5.1"
   },
   "devDependencies": {
     "bogota": "^2.0.4",

@@ -18,7 +18,10 @@
     "url": "https://github.com/goliatone/base-cli-commands/issues"
   },
   "homepage": "https://github.com/goliatone/base-cli-commands#readme",
-  "dependencies": {},
+  "dependencies": {
+    "child-process-promise": "^2.2.1",
+    "gextend": "^0.3.0"
+  },
   "devDependencies": {
     "bogota": "^2.0.4",
     "jshint": "^2.9.5",

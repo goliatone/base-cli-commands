@@ -20,11 +20,13 @@
   "homepage": "https://github.com/goliatone/base-cli-commands#readme",
   "dependencies": {
     "bluebird": "^3.5.1",
+    "caporal": "^0.8.0",
     "child-process-promise": "^2.2.1",
     "gextend": "^0.3.0",
     "jstransformer": "^1.0.0",
     "jstransformer-swig": "^0.2.1",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "update-notifier": "^2.3.0"
   },
   "devDependencies": {
     "bogota": "^2.0.4",

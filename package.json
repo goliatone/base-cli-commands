@@ -1,6 +1,6 @@
 {
   "name": "base-cli-commands",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Abstract Command utilties for CLI applications",
   "main": "index.js",
   "scripts": {

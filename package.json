@@ -4,7 +4,8 @@
   "description": "Abstract Command utilities for CLI applications",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/**.js | tap-spec"
+    "test": "tape test/**.js | tap-spec",
+    "cover": "./node_modules/.bin/nyc tape test/**.js"
   },
   "repository": {
     "type": "git",

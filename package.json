@@ -19,13 +19,14 @@
   },
   "homepage": "https://github.com/goliatone/base-cli-commands#readme",
   "dependencies": {
+    "@caporal/core": "^2.0.2",
     "bluebird": "^3.7.2",
-    "caporal": "^0.8.0",
+    "caporal": "1.4",
     "child-process-promise": "^2.2.1",
     "gextend": "^0.8.0",
     "jstransformer": "^1.0.0",
     "jstransformer-swig": "^1.0.0",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^1.0.4",
     "noop-console": "^0.9.0",
     "update-notifier": "5.1"
   },

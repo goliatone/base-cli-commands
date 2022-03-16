@@ -1,0 +1,11 @@
+{
+  "name": "base-cli-commands-example",
+  "version": "0.0.1",
+  "description": "Base CLI commands example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Goliatone <hello@goliatone.com> (http://goliatone.com/)",
+  "license": "MIT"
+}

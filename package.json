@@ -1,11 +1,11 @@
 {
   "name": "base-cli-commands",
   "version": "0.1.1",
-  "description": "Abstract Command utilties for CLI applications",
+  "description": "Abstract Command utilities for CLI applications",
   "main": "index.js",
   "scripts": {
-    "test": "bogota",
-    "dtest": "watch bogota test/"
+    "test": "tape test/**.js | tap-spec",
+    "cover": "./node_modules/.bin/nyc tape test/**.js"
   },
   "repository": {
     "type": "git",
@@ -19,23 +19,22 @@
   },
   "homepage": "https://github.com/goliatone/base-cli-commands#readme",
   "dependencies": {
-    "bluebird": "^3.5.1",
+    "bluebird": "^3.7.2",
     "caporal": "^0.8.0",
     "child-process-promise": "^2.2.1",
-    "gextend": "^0.3.0",
+    "gextend": "^0.8.0",
     "jstransformer": "^1.0.0",
-    "jstransformer-swig": "^0.2.1",
+    "jstransformer-swig": "^1.0.0",
     "mkdirp": "^0.5.1",
-    "noop-console": "^0.6.0",
-    "update-notifier": "^2.3.0"
+    "noop-console": "^0.9.0",
+    "update-notifier": "5.1"
   },
   "devDependencies": {
-    "bogota": "^2.0.4",
-    "jshint": "^2.9.5",
-    "nyc": "^10.3.2",
-    "sinon": "^2.2.0",
-    "tap-spec": "^4.1.1",
-    "tape": "^4.6.3",
+    "jshint": "^2.13.4",
+    "nyc": "^15.1.0",
+    "sinon": "^13.0.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.5.2",
     "tape-catch": "^1.0.6",
     "watch": "^1.0.2"
   }

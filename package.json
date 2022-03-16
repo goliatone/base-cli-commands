@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/goliatone/base-cli-commands#readme",
   "dependencies": {
+    "@caporal/core": "^2.0.2",
     "bluebird": "^3.7.2",
     "caporal": "1.4",
     "child-process-promise": "^2.2.1",

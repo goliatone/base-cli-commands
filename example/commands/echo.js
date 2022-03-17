@@ -27,9 +27,10 @@ class EchoCommand extends BaseCommand {
         cmd.argument('[std]', 'Output to [std].', /.*/);
 
         cmd.option('--add-date',
-            'Add date to output.',
-            prog.BOOL,
-            EchoCommand.DEFAULTS.options.addDate
+            'Add date to output.', {
+                validator: prog.BOOL,
+                default: EchoCommand.DEFAULTS.options.addDate
+            }
         );
     }
 }

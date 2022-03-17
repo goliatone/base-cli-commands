@@ -19,8 +19,9 @@ class SayCommand extends BaseCommand {
 
     static describe(prog, cmd) {
         cmd.argument('[name]',
-            'Say something to [NAME]',
-            /.*/
+            'Say something to [NAME]', {
+                validator: /.*/
+            }
         );
     }
 }

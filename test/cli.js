@@ -21,7 +21,8 @@ test('CliApp should call our cli handler', async t => {
             parse(argv) {
                 t.deepEqual(argv, expected);
                 t.end();
-            }
+            },
+            configure() {}
         },
         package: require('../package.json')
     });
